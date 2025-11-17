@@ -1,0 +1,35 @@
+:root {
+  --bg: #f3ede3;
+  --bg-panel: #fff7ef;
+  --bg-sidebar: #ded1c2;
+  --bg-card: #f9f4ee;
+  --border-soft: #c7b8aa;
+  --text-primary: #5a4a3f;
+  --text-secondary: #8d7c6d;
+  --accent: #d3a37c;
+  --accent-strong: #c2825c;
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  margin: 0;
+  color: var(--text-primary);
+}
+
+main {
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}

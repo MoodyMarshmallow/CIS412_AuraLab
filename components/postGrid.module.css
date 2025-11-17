@@ -1,0 +1,36 @@
+.grid {
+  padding: 0 32px 120px 32px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid rgba(90, 74, 63, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.thumbnail {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.cardBody {
+  margin-top: 12px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caption {
+  margin-top: 8px;
+  color: var(--text-secondary);
+  font-size: 14px;
+}

@@ -1,0 +1,10 @@
+node_modules
+.next
+.DS_Store
+backend/auralab.db
+artifacts
+assets/
+public/placeholders/
+docs/references/*.png
+docs/references/*.jpg
+docs/references/*.jpeg

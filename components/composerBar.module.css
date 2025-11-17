@@ -1,0 +1,23 @@
+.composer {
+  position: fixed;
+  bottom: 32px;
+  left: 320px;
+  right: 40px;
+  display: flex;
+  gap: 20px;
+  padding: 20px 28px;
+  background: #fff;
+  border: 1px solid rgba(90, 74, 63, 0.15);
+}
+
+.input {
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .composer {
+    position: static;
+    margin: 24px;
+    flex-direction: column;
+  }
+}
